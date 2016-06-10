@@ -1,0 +1,53 @@
+﻿body {
+    width: 78%;
+    margin: 10px auto;
+    font-family: Garamond, Georgia, sans-serif;
+}
+h1 {
+    background-color: #00BCD4;
+    padding: 5%;
+    margin:0;
+    text-align:center;
+}
+
+div[id] {
+    width: 29%;
+    border: 2px solid rgba(158,158,158,0.4);
+    padding: 10px;
+    margin: 5px;
+    display:inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+
+#logIn, #register {
+    display: block;
+    background-color: antiquewhite;
+    width:50%;
+    margin: 10px auto;
+}
+#register {
+    height: 300px;
+}
+#ShowDropDownList {
+    margin-top: 20px;
+}
+th {
+    background-color: #00BCD4;
+}
+th, td {
+    padding: 5px;
+    /*text-align:center;*/
+}
+#ShowGridView {
+    width: 50%;
+    margin: 20px auto;
+}
+
+select, input {
+    font-size: 1em;
+    font-family: Garamond, Georgia, sans-serif;
+}
+#ArtistDropDownList {
+    width:40%;
+}
